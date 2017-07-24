@@ -1,0 +1,9 @@
+dev:
+  app_function: app.wsgi.the_app
+  aws_region: eu-west-1
+  domain: api.example.com
+  keep_warm: false
+  manage_roles: false
+  project_name: zappa-request-path-problem
+  role_name: zappa-execution-role-dev
+  s3_bucket: zappa-uploads-dev
